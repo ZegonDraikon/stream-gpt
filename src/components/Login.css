@@ -1,0 +1,83 @@
+.login-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://www.justwatch.com/appassets/img/home/global-home-bg-comp.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+  
+  .login-form {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .login-input::placeholder {
+    color: #8c8c8c;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #FDDC5C;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #FDDC5C;
+  }
+  
+  .login-help {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #8c8c8c;
+    font-size: 14px;
+  }
+  
+  .login-help-right {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
