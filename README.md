@@ -1,8 +1,21 @@
 -Create React App
 -Configured React App
 -Header
+-Routing of App
 -Login Form
--Logout Form
+-Sign Up Form
+-Form Validation
+-useRef Hook
+-FireBase Setup
+-Deploying our app to production
+-Create Signup 
+-Created Redux store with UserSlice
+-Register TMDB API Create an app & get movies list API
+-Get Data from TMDB API
+-Custom Hook fro Playing Movies
+-Create MovieSlice
+
+
 
 # Features
 
