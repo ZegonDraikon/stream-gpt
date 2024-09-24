@@ -13,3 +13,12 @@ export const API_OPTIONS= {
   };
   
   export const IMG_CDN_URL='https://image.tmdb.org/t/p/w780/';
+
+  export const BG_URL ='https://www.justwatch.com/appassets/img/home/global-home-bg-comp.png';
+
+  export const SUPPORTED_LANGUAGES = [
+    { identifier: "en", name: "English" },
+    { identifier: "hindi", name: "Hindi" },
+    { identifier: "spanish", name: "Spanish" },
+  ];
+

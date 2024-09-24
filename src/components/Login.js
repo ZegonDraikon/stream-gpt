@@ -24,7 +24,7 @@ const Login = () => {
     if (message) return;
 
     if (!isSignInForm) {
-      // Sign Up Logic
+      
       createUserWithEmailAndPassword(
         auth,
         email.current.value,
